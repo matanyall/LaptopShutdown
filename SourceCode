@@ -7,9 +7,9 @@ tell application "Finder"
 	set button1 to button returned of DLG
 	
 	tell application "Terminal"
-		set ServerAddress to "192.168.86.99"
-		set ServerUserName to "bara"
-		set ServerPassword to "613TorahEM"
+		set ServerAddress to "192.168.86.xx"
+		set ServerUserName to "user"
+		set ServerPassword to "password"
 		set Command to "sudo pkill loginwindow"
 		
 	end tell
